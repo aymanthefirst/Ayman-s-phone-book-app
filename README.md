@@ -1,4 +1,4 @@
-# Econtact - Ayman's phonebook application
+# Ayman's phonebook application
 This is a a simple application to store details of contacts. 
 
 ## Technologies Used
