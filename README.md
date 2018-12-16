@@ -5,6 +5,7 @@ This is a a simple application to store details of contacts.
 1. C# Programming Language
 2. MS SQL Server
 3. Microsoft Visual Studio
+4. CRUD
 
 ## Features
 1. Add New Contact
