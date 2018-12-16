@@ -1,6 +1,6 @@
 ﻿namespace Econtact
 {
-    partial class Form1
+    partial class Econtact
     {
         /// <summary>
         /// Required designer variable.
@@ -28,307 +28,290 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.iblContactID = new System.Windows.Forms.Label();
-            this.textBoxContactID = new System.Windows.Forms.TextBox();
-            this.textBoxFirstName = new System.Windows.Forms.TextBox();
-            this.lblFirstName = new System.Windows.Forms.Label();
-            this.textBoxLastName = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Econtact));
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.lblContactID = new System.Windows.Forms.Label();
+            this.txtboxContactID = new System.Windows.Forms.TextBox();
+            this.txtboxLastName = new System.Windows.Forms.TextBox();
             this.lblLastName = new System.Windows.Forms.Label();
-            this.textBoxContactNo = new System.Windows.Forms.TextBox();
-            this.lblContactNo = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBoxAddress = new System.Windows.Forms.TextBox();
-            this.llbAddress = new System.Windows.Forms.Label();
+            this.txtBoxContactNumber = new System.Windows.Forms.TextBox();
+            this.lblContactNumber = new System.Windows.Forms.Label();
+            this.txtboxFirstName = new System.Windows.Forms.TextBox();
+            this.lblFirstName = new System.Windows.Forms.Label();
+            this.txtBoxAddress = new System.Windows.Forms.TextBox();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.cmbGender = new System.Windows.Forms.ComboBox();
             this.lblGender = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lblSearch = new System.Windows.Forms.Label();
-            this.textBoxSearch = new System.Windows.Forms.TextBox();
+            this.dgvContactList = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtboxSearch = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // iblContactID
+            // pictureBoxLogo
             // 
-            this.iblContactID.AutoSize = true;
-            this.iblContactID.BackColor = System.Drawing.Color.Transparent;
-            this.iblContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iblContactID.Location = new System.Drawing.Point(118, 149);
-            this.iblContactID.Name = "iblContactID";
-            this.iblContactID.Size = new System.Drawing.Size(86, 20);
-            this.iblContactID.TabIndex = 1;
-            this.iblContactID.Text = "Contact ID";
-            this.iblContactID.UseWaitCursor = true;
+            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
+            this.pictureBoxLogo.Location = new System.Drawing.Point(192, 12);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(520, 64);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
             // 
-            // textBoxContactID
+            // lblContactID
             // 
-            this.textBoxContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxContactID.Location = new System.Drawing.Point(229, 143);
-            this.textBoxContactID.Name = "textBoxContactID";
-            this.textBoxContactID.Size = new System.Drawing.Size(199, 26);
-            this.textBoxContactID.TabIndex = 2;
-            this.textBoxContactID.UseWaitCursor = true;
+            this.lblContactID.AutoSize = true;
+            this.lblContactID.BackColor = System.Drawing.Color.Transparent;
+            this.lblContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContactID.Location = new System.Drawing.Point(73, 115);
+            this.lblContactID.Name = "lblContactID";
+            this.lblContactID.Size = new System.Drawing.Size(86, 20);
+            this.lblContactID.TabIndex = 1;
+            this.lblContactID.Text = "Contact ID";
             // 
-            // textBoxFirstName
+            // txtboxContactID
             // 
-            this.textBoxFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFirstName.Location = new System.Drawing.Point(229, 185);
-            this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(199, 26);
-            this.textBoxFirstName.TabIndex = 4;
-            this.textBoxFirstName.UseWaitCursor = true;
+            this.txtboxContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxContactID.Location = new System.Drawing.Point(221, 112);
+            this.txtboxContactID.Name = "txtboxContactID";
+            this.txtboxContactID.ReadOnly = true;
+            this.txtboxContactID.Size = new System.Drawing.Size(201, 26);
+            this.txtboxContactID.TabIndex = 2;
             // 
-            // lblFirstName
+            // txtboxLastName
             // 
-            this.lblFirstName.AutoSize = true;
-            this.lblFirstName.BackColor = System.Drawing.Color.Transparent;
-            this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFirstName.Location = new System.Drawing.Point(118, 191);
-            this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(86, 20);
-            this.lblFirstName.TabIndex = 3;
-            this.lblFirstName.Text = "First Name";
-            this.lblFirstName.UseWaitCursor = true;
-            // 
-            // textBoxLastName
-            // 
-            this.textBoxLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLastName.Location = new System.Drawing.Point(229, 226);
-            this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(199, 26);
-            this.textBoxLastName.TabIndex = 6;
-            this.textBoxLastName.UseWaitCursor = true;
+            this.txtboxLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxLastName.Location = new System.Drawing.Point(221, 197);
+            this.txtboxLastName.Name = "txtboxLastName";
+            this.txtboxLastName.Size = new System.Drawing.Size(201, 26);
+            this.txtboxLastName.TabIndex = 4;
+            this.txtboxLastName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
             this.lblLastName.BackColor = System.Drawing.Color.Transparent;
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLastName.Location = new System.Drawing.Point(118, 232);
+            this.lblLastName.Location = new System.Drawing.Point(73, 203);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(86, 20);
-            this.lblLastName.TabIndex = 5;
+            this.lblLastName.TabIndex = 3;
             this.lblLastName.Text = "Last Name";
-            this.lblLastName.UseWaitCursor = true;
-            this.lblLastName.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBoxContactNo
+            // txtBoxContactNumber
             // 
-            this.textBoxContactNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxContactNo.Location = new System.Drawing.Point(229, 268);
-            this.textBoxContactNo.Name = "textBoxContactNo";
-            this.textBoxContactNo.Size = new System.Drawing.Size(199, 26);
-            this.textBoxContactNo.TabIndex = 8;
-            this.textBoxContactNo.UseWaitCursor = true;
+            this.txtBoxContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxContactNumber.Location = new System.Drawing.Point(221, 246);
+            this.txtBoxContactNumber.Name = "txtBoxContactNumber";
+            this.txtBoxContactNumber.Size = new System.Drawing.Size(201, 26);
+            this.txtBoxContactNumber.TabIndex = 6;
             // 
-            // lblContactNo
+            // lblContactNumber
             // 
-            this.lblContactNo.AutoSize = true;
-            this.lblContactNo.BackColor = System.Drawing.Color.Transparent;
-            this.lblContactNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContactNo.Location = new System.Drawing.Point(118, 274);
-            this.lblContactNo.Name = "lblContactNo";
-            this.lblContactNo.Size = new System.Drawing.Size(93, 20);
-            this.lblContactNo.TabIndex = 7;
-            this.lblContactNo.Text = "Contact No.";
-            this.lblContactNo.UseWaitCursor = true;
+            this.lblContactNumber.AutoSize = true;
+            this.lblContactNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lblContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContactNumber.Location = new System.Drawing.Point(73, 252);
+            this.lblContactNumber.Name = "lblContactNumber";
+            this.lblContactNumber.Size = new System.Drawing.Size(93, 20);
+            this.lblContactNumber.TabIndex = 5;
+            this.lblContactNumber.Text = "Contact No.";
             // 
-            // contextMenuStrip1
+            // txtboxFirstName
             // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.txtboxFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxFirstName.Location = new System.Drawing.Point(221, 156);
+            this.txtboxFirstName.Name = "txtboxFirstName";
+            this.txtboxFirstName.Size = new System.Drawing.Size(201, 26);
+            this.txtboxFirstName.TabIndex = 8;
             // 
-            // textBoxAddress
+            // lblFirstName
             // 
-            this.textBoxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAddress.Location = new System.Drawing.Point(229, 311);
-            this.textBoxAddress.Multiline = true;
-            this.textBoxAddress.Name = "textBoxAddress";
-            this.textBoxAddress.Size = new System.Drawing.Size(199, 89);
-            this.textBoxAddress.TabIndex = 11;
-            this.textBoxAddress.UseWaitCursor = true;
-            this.textBoxAddress.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.BackColor = System.Drawing.Color.Transparent;
+            this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFirstName.Location = new System.Drawing.Point(73, 162);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(86, 20);
+            this.lblFirstName.TabIndex = 7;
+            this.lblFirstName.Text = "First Name";
             // 
-            // llbAddress
+            // txtBoxAddress
             // 
-            this.llbAddress.AutoSize = true;
-            this.llbAddress.BackColor = System.Drawing.Color.Transparent;
-            this.llbAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbAddress.Location = new System.Drawing.Point(118, 317);
-            this.llbAddress.Name = "llbAddress";
-            this.llbAddress.Size = new System.Drawing.Size(68, 20);
-            this.llbAddress.TabIndex = 10;
-            this.llbAddress.Text = "Address";
-            this.llbAddress.UseWaitCursor = true;
-            this.llbAddress.Click += new System.EventHandler(this.label1_Click);
+            this.txtBoxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxAddress.Location = new System.Drawing.Point(221, 289);
+            this.txtBoxAddress.Multiline = true;
+            this.txtBoxAddress.Name = "txtBoxAddress";
+            this.txtBoxAddress.Size = new System.Drawing.Size(201, 105);
+            this.txtBoxAddress.TabIndex = 10;
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.BackColor = System.Drawing.Color.Transparent;
+            this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(73, 295);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(68, 20);
+            this.lblAddress.TabIndex = 9;
+            this.lblAddress.Text = "Address";
+            // 
+            // cmbGender
+            // 
+            this.cmbGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbGender.FormattingEnabled = true;
+            this.cmbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.cmbGender.Location = new System.Drawing.Point(221, 416);
+            this.cmbGender.Name = "cmbGender";
+            this.cmbGender.Size = new System.Drawing.Size(201, 28);
+            this.cmbGender.TabIndex = 11;
             // 
             // lblGender
             // 
             this.lblGender.AutoSize = true;
             this.lblGender.BackColor = System.Drawing.Color.Transparent;
             this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.Location = new System.Drawing.Point(118, 420);
+            this.lblGender.Location = new System.Drawing.Point(73, 417);
             this.lblGender.Name = "lblGender";
             this.lblGender.Size = new System.Drawing.Size(63, 20);
             this.lblGender.TabIndex = 12;
             this.lblGender.Text = "Gender";
-            this.lblGender.UseWaitCursor = true;
-            this.lblGender.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(229, 416);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(199, 28);
-            this.comboBox1.TabIndex = 13;
+            this.lblGender.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnAdd.BackColor = System.Drawing.Color.ForestGreen;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(242, 478);
+            this.btnAdd.Location = new System.Drawing.Point(495, 474);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(93, 54);
-            this.btnAdd.TabIndex = 14;
+            this.btnAdd.Size = new System.Drawing.Size(121, 41);
+            this.btnAdd.TabIndex = 13;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.Blue;
+            this.btnUpdate.BackColor = System.Drawing.Color.SteelBlue;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(401, 478);
+            this.btnUpdate.Location = new System.Drawing.Point(639, 474);
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(93, 54);
-            this.btnUpdate.TabIndex = 15;
+            this.btnUpdate.Size = new System.Drawing.Size(121, 41);
+            this.btnUpdate.TabIndex = 14;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.Orange;
+            this.btnClear.BackColor = System.Drawing.Color.White;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(723, 478);
+            this.btnClear.Location = new System.Drawing.Point(221, 460);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(93, 54);
-            this.btnClear.TabIndex = 17;
+            this.btnClear.Size = new System.Drawing.Size(201, 27);
+            this.btnClear.TabIndex = 16;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.BackColor = System.Drawing.Color.Crimson;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(564, 478);
+            this.btnDelete.Location = new System.Drawing.Point(779, 474);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(93, 54);
-            this.btnDelete.TabIndex = 16;
+            this.btnDelete.Size = new System.Drawing.Size(121, 41);
+            this.btnDelete.TabIndex = 15;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
-            this.btnDelete.Click += new System.EventHandler(this.button4_Click);
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
-            // pictureBoxLogo
+            // dgvContactList
             // 
-            this.pictureBoxLogo.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
-            this.pictureBoxLogo.Location = new System.Drawing.Point(189, 12);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(495, 80);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxLogo.TabIndex = 0;
-            this.pictureBoxLogo.TabStop = false;
-            this.pictureBoxLogo.UseWaitCursor = true;
+            this.dgvContactList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvContactList.Location = new System.Drawing.Point(459, 156);
+            this.dgvContactList.Name = "dgvContactList";
+            this.dgvContactList.Size = new System.Drawing.Size(477, 288);
+            this.dgvContactList.TabIndex = 17;
+            this.dgvContactList.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvContactList_RowHeaderMouseClick);
             // 
-            // dataGridView1
+            // label1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(494, 185);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(425, 259);
-            this.dataGridView1.TabIndex = 18;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(459, 115);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Search";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSearch
+            // txtboxSearch
             // 
-            this.lblSearch.AutoSize = true;
-            this.lblSearch.BackColor = System.Drawing.Color.Transparent;
-            this.lblSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSearch.Location = new System.Drawing.Point(490, 143);
-            this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(60, 20);
-            this.lblSearch.TabIndex = 19;
-            this.lblSearch.Text = "Search";
-            this.lblSearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblSearch.UseWaitCursor = true;
-            // 
-            // textBoxSearch
-            // 
-            this.textBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSearch.Location = new System.Drawing.Point(575, 137);
-            this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(344, 26);
-            this.textBoxSearch.TabIndex = 20;
-            this.textBoxSearch.UseWaitCursor = true;
+            this.txtboxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxSearch.Location = new System.Drawing.Point(526, 112);
+            this.txtboxSearch.Name = "txtboxSearch";
+            this.txtboxSearch.Size = new System.Drawing.Size(410, 26);
+            this.txtboxSearch.TabIndex = 19;
+            this.txtboxSearch.TextChanged += new System.EventHandler(this.txtboxSearch_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(872, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(919, 13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(47, 46);
-            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form1
+            // Econtact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(975, 544);
+            this.ClientSize = new System.Drawing.Size(986, 548);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.lblSearch);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.txtboxSearch);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dgvContactList);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblGender);
-            this.Controls.Add(this.textBoxAddress);
-            this.Controls.Add(this.llbAddress);
-            this.Controls.Add(this.textBoxContactNo);
-            this.Controls.Add(this.lblContactNo);
-            this.Controls.Add(this.textBoxLastName);
-            this.Controls.Add(this.lblLastName);
-            this.Controls.Add(this.textBoxFirstName);
+            this.Controls.Add(this.cmbGender);
+            this.Controls.Add(this.txtBoxAddress);
+            this.Controls.Add(this.lblAddress);
+            this.Controls.Add(this.txtboxFirstName);
             this.Controls.Add(this.lblFirstName);
-            this.Controls.Add(this.textBoxContactID);
-            this.Controls.Add(this.iblContactID);
+            this.Controls.Add(this.txtBoxContactNumber);
+            this.Controls.Add(this.lblContactNumber);
+            this.Controls.Add(this.txtboxLastName);
+            this.Controls.Add(this.lblLastName);
+            this.Controls.Add(this.txtboxContactID);
+            this.Controls.Add(this.lblContactID);
             this.Controls.Add(this.pictureBoxLogo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
-            this.Text = "Econtact";
-            this.UseWaitCursor = true;
+            this.Name = "Econtact";
+            this.Text = "EContact";
+            this.Load += new System.EventHandler(this.Econtact_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -336,27 +319,27 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label iblContactID;
-        private System.Windows.Forms.TextBox textBoxContactID;
-        private System.Windows.Forms.TextBox textBoxFirstName;
-        private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox textBoxLastName;
+
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Label lblContactID;
+        private System.Windows.Forms.TextBox txtboxContactID;
+        private System.Windows.Forms.TextBox txtboxLastName;
         private System.Windows.Forms.Label lblLastName;
-        private System.Windows.Forms.TextBox textBoxContactNo;
-        private System.Windows.Forms.Label lblContactNo;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.TextBox textBoxAddress;
-        private System.Windows.Forms.Label llbAddress;
+        private System.Windows.Forms.TextBox txtBoxContactNumber;
+        private System.Windows.Forms.Label lblContactNumber;
+        private System.Windows.Forms.TextBox txtboxFirstName;
+        private System.Windows.Forms.Label lblFirstName;
+        private System.Windows.Forms.TextBox txtBoxAddress;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.ComboBox cmbGender;
         private System.Windows.Forms.Label lblGender;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.PictureBox pictureBoxLogo;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label lblSearch;
-        private System.Windows.Forms.TextBox textBoxSearch;
+        private System.Windows.Forms.DataGridView dgvContactList;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtboxSearch;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
