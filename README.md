@@ -16,3 +16,6 @@ This is a a simple application to store details of contacts.
 ## Instructions
 1. Download MS SQL Server and create your own server.
 2. Download Visual Studio, then open the project and edit the App.config file so that it relates to your own server.
+
+![Alt text](/images/demo.PNG?raw=true "Title")
+![Alt text](/images/demoSearch.PNG?raw=true "Title")
